@@ -1,0 +1,104 @@
+[
+    {
+        "module": "[fill]", 
+        "size": {
+            ".data": 7, 
+            ".bss": 15, 
+            ".text": 236
+        }
+    }, 
+    {
+        "module": "[lib]/c.a", 
+        "size": {
+            ".data": 2572, 
+            ".bss": 127, 
+            ".text": 45751
+        }
+    }, 
+    {
+        "module": "[lib]/gcc.a", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 3272
+        }
+    }, 
+    {
+        "module": "[lib]/misc", 
+        "size": {
+            ".data": 12, 
+            ".bss": 28, 
+            ".text": 208
+        }
+    }, 
+    {
+        "module": "main.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 214
+        }
+    }, 
+    {
+        "module": "mbed-os/drivers", 
+        "size": {
+            ".data": 4, 
+            ".bss": 100, 
+            ".text": 1537
+        }
+    }, 
+    {
+        "module": "mbed-os/events", 
+        "size": {
+            ".data": 0, 
+            ".bss": 1576, 
+            ".text": 3277
+        }
+    }, 
+    {
+        "module": "mbed-os/features", 
+        "size": {
+            ".data": 0, 
+            ".bss": 12692, 
+            ".text": 4576
+        }
+    }, 
+    {
+        "module": "mbed-os/hal", 
+        "size": {
+            ".data": 4, 
+            ".bss": 84, 
+            ".text": 3300
+        }
+    }, 
+    {
+        "module": "mbed-os/platform", 
+        "size": {
+            ".data": 276, 
+            ".bss": 301, 
+            ".text": 6970
+        }
+    }, 
+    {
+        "module": "mbed-os/rtos", 
+        "size": {
+            ".data": 168, 
+            ".bss": 6073, 
+            ".text": 22644
+        }
+    }, 
+    {
+        "module": "mbed-os/targets", 
+        "size": {
+            ".data": 5, 
+            ".bss": 724, 
+            ".text": 20433
+        }
+    }, 
+    {
+        "summary": {
+            "static_ram": 24768, 
+            "total_flash": 115466
+        }
+    }
+]
