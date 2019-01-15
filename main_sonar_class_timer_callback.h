@@ -5,6 +5,18 @@
  *    Timed event (echo pulse) using timer
  *    Regular task (trigger_reading) using a ticker
  *    Task duration (trigger length) using timeout
+ * 
+ *  EZ1
+ *    BW (Input) - Held HIGH then TX does not output serial (low noise, pulse chaining mode)
+ *    RX (Input) = Trigger Pin 
+ *      LOW - Stop Ranging - Checked at end of every range cycle.
+ *      HIGH - For >= 20uS to initiate a range reading
+ *    PW (Output) = Echo pulse - 147uS/inch
+ *    Power-up time = 250mS before ready to accept RX.
+ *    Range reading cycle = 49mS (1st reading takes longer. ~+100mS)
+ *      - Sends 13 x 42KHz waves
+ *      - PW is set HIGH - For Max interval = 37.5mS if no target detected
+ *      - PW is set LOW when target detected. 
  */
 #include "mbed.h"
 

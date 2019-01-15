@@ -4,4 +4,6 @@
 //#include "main_sonar_class_timer_callback.h"
 //#include "main_criticalsection.h"
 //#include "main_sleep_power.h"
-#include "main_time.h"
+//#include "main_time.h"
+#include "main_debug.h"
+//#include "main_mem_trace.h"
